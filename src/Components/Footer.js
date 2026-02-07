@@ -4,10 +4,7 @@ import logo from "../Assets/LogoDARK.svg"
 function Footer() {
     return (
         <footer className="footer">
-
-            {/* TOP */}
             <div className="footer-top">
-
                 <div className="footer-col footer-brand">
                     <img src={logo} alt="Oneflow logo" className="footer-logo" />
                     <p>
@@ -56,32 +53,24 @@ function Footer() {
                 </div>
             </div>
 
-            {/* DIVIDER */}
             <div className="footer-divider"></div>
 
-            {/* CTA */}
             <div className="footer-cta">
                 <div>
                     <h2>Get in the flow</h2>
-                    <p>
-                        Send, track and sign your contracts free for the rest<br />
-                        of your life. No trickery.
-                    </p>
+                    <p>Send, track and sign your contracts free for the rest<br />of your life. No trickery.</p>
                 </div>
-
                 <button>Get Oneflow free</button>
             </div>
 
             <div className="footer-divider"></div>
 
-            {/* BOTTOM */}
             <div className="footer-bottom">
                 <span>Login</span>
                 <span>Privacy</span>
                 <span>Cookie statement</span>
                 <i className="fas fa-earth" aria-hidden="true"></i>
             </div>
-
         </footer>
     )
 }
