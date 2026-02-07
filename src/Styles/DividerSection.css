@@ -636,7 +636,7 @@
 }
 
 /* 425px (Mobil telefonlar) */
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .dstn-logos {
         height: auto;
         flex-direction: column;

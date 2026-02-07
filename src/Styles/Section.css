@@ -1,11 +1,12 @@
 /* ===== Base Section ===== */
 .section {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    padding: 80px 144px 0;
+    padding: 80px 144px 80px 144px;
     background-color: #013A4C;
 }
 
@@ -97,26 +98,59 @@
     gap: 24px;
     background-color: #D3E8F4;
     border-radius: 10px;
-    padding: 24px;
+}
+
+.stn-header {
+    width: 100%;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid #013A4C;
+    ;
+}
+
+.stn-header-ul {
+    width: 100%;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+.stn-header-ul li a {
+    width: auto;
+    height: 121px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #013A4C;
+}
+
+.stn-header-ul li a:focus {
+    border-bottom: 2px solid #013A4C;
 }
 
 /* Hero Section */
 .stn-hero {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    gap: 32px;
+    padding: 0 0 0 96px;
+    justify-content: space-between;
 }
 
 .stn-hero-text {
-    flex: 1 1 576px;
+    width: 576px;
+    height: 355px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    padding: 0 24px;
+    justify-content: space-between;
 }
 
 .stn-hero-text h3 {
@@ -224,42 +258,19 @@
     }
 
     .section-data {
-        padding: 20px;
-        gap: 20px;
+        transform: scale(0.9);
+    }
+
+    .stn-header-ul{
+        padding: 0 20px;
     }
 
     .stn-hero {
-        flex-direction: column;
-        gap: 24px;
-        align-items: center;
+        padding: 20px;
     }
 
-    .stn-hero-text {
-        flex: 1 1 100%;
-        text-align: center;
-        padding: 0 24px;
-        align-items: center;
-    }
-
-    .stn-hero-text h3 {
-        font-size: 40px;
-        line-height: 48px;
-    }
-
-    .stn-hero-text p {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .stn-list-button {
-        width: 100%;
-        align-items: center;
-    }
-
-    .learn-btn {
-        width: 105px;
-        height: 38px;
-        font-size: 13px;
+    .stn-header-img{
+        display: none;
     }
 }
 
@@ -317,46 +328,7 @@
     }
 
     .section-data {
-        padding: 18px;
-        gap: 18px;
-    }
-
-    .stn-hero {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .stn-hero-text {
-        flex: 1 1 100%;
-        text-align: center;
-        padding: 0;
-        align-items: center;
-        max-width: 100%;
-    }
-
-    .stn-hero-text h3 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .stn-hero-text p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .stn-list-button {
-        width: 100%;
-        align-items: center;
-    }
-
-    .learn-btn {
-        width: 100px;
-        height: 36px;
-        font-size: 12px;
-    }
-
-    .stn-header-img{
-        display: none;
+        transform: scale(0.8);
     }
 }
 
@@ -408,63 +380,8 @@
     }
 
     .stn-article-img {
-        flex: 1 1 100%;
         width: 100%;
         max-width: 250px;
         height: auto;
-    }
-
-    .section-data {
-        width: 100%;
-        padding: 16px;
-        gap: 16px;
-        border-radius: 8px;
-    }
-
-    .stn-hero {
-        flex-direction: column;
-        gap: 16px;
-        align-items: center;
-    }
-
-    .stn-hero-text {
-        flex: 1 1 100%;
-        text-align: center;
-        padding: 0;
-        align-items: center;
-        width: 100%;
-    }
-
-    .stn-hero-text h3 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .stn-hero-text p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .stn-list-button {
-        width: 100%;
-        align-items: center;
-        gap: 6px;
-    }
-
-    .stn-list-button p {
-        font-size: 13px;
-        justify-content: center;
-    }
-
-    .stn-list-button i {
-        width: 18px;
-        height: 18px;
-        font-size: 12px;
-    }
-
-    .learn-btn {
-        width: 90px;
-        height: 34px;
-        font-size: 11px;
     }
 }
