@@ -2,7 +2,7 @@
   "name": "angular",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Work025.github.io/angular",
+  "homepage": "https://work025.github.io/oneflow",
   "dependencies": {
     "@exodus/bytes": "^1.11.0",
     "@testing-library/dom": "^10.4.1",
