@@ -1,19 +1,16 @@
+/* ===== Base Section ===== */
 .section {
     width: 100%;
-    height: 1700px;
     display: flex;
-    gap: 80px;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 80px 144px 0 144px;
     flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 144px 0;
     background-color: #013A4C;
 }
 
 .section h2 {
-    width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 38px;
@@ -22,48 +19,46 @@
     color: #FFFFFF;
 }
 
+/* Image Cards */
 .stn-imgcard {
     width: 100%;
     display: flex;
-    gap: 32px;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
+/* Middle Section */
 .section-middle {
     width: 100%;
-    height: 507px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .section-text {
-    width: 50%;
-    height: 507px;
+    flex: 1 1 50%;
     display: flex;
-    align-items: flex-start;
-    padding: 0 0 32px 0;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 32px;
 }
 
 .section-text h3 {
-    width: 402px;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 72px;
-    letter-spacing: 0.4px;
     color: #F2DCE4;
 }
 
 .section-text p {
-    width: 528px;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
     font-size: 21px;
     line-height: 28px;
     color: #FFFFFF;
@@ -75,122 +70,81 @@
     background: #FFD063;
     border: 1px solid #FFD063;
     border-radius: 4px;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    line-height: 20px;
-    text-align: center;
     color: #013A4C;
+    cursor: pointer;
 }
 
+/* Article Image */
 .stn-article-img {
-    width: 500px;
-    height: 500px;
+    flex: 1 1 500px;
+    max-width: 500px;
 }
 
 .stn-article-img img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: contain;
 }
 
+/* Section Data */
 .section-data {
     width: 100%;
-    height: 600px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
     background-color: #D3E8F4;
     border-radius: 10px;
+    padding: 24px;
 }
 
-.stn-header {
-    width: 100%;
-    height: 121px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid #013A4C;
-}
-
-.stn-header-ul {
-    width: 100%;
-    height: 121px;
-    display: flex;
-    align-items: center;
-    padding: 0 96px;
-    justify-content: space-between;
-}
-
-.stn-header-ul li a {
-    display: flex;
-    gap: 7px;
-    flex-direction: column;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #013A4C;
-}
-
+/* Hero Section */
 .stn-hero {
     width: 100%;
-    height: 479px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    gap: 32px;
 }
 
 .stn-hero-text {
-    width: 576px;
-    height: 355px;
+    flex: 1 1 576px;
     display: flex;
-    align-items: flex-start;
-    padding: 0 0 28px 96px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 24px;
 }
 
 .stn-hero-text h3 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 55px;
     line-height: 80px;
-    text-align: center;
-    letter-spacing: 0.7px;
+    font-weight: 700;
     color: #013A4C;
 }
 
 .stn-hero-text p {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 21px;
     line-height: 28px;
     color: #013A4C;
 }
 
+/* Buttons & List */
 .stn-list-button {
     display: flex;
-    gap: 8px;
     flex-direction: column;
+    gap: 8px;
 }
 
 .stn-list-button p {
     display: flex;
-    gap: 10px;
     align-items: center;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
+    gap: 10px;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
-    line-height: 20px;
-    color: #013A4C;
 }
 
 .stn-list-button i {
@@ -202,7 +156,7 @@
     font-size: 14px;
     color: #fff;
     background-color: #346170;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .learn-btn {
@@ -210,13 +164,307 @@
     height: 40px;
     border: 1.5px solid #013A4C;
     border-radius: 4px;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
-    line-height: 18px;
-    text-align: center;
     color: #013A4C;
-    background: rgba(0, 0, 0, 0);
+    background: transparent;
+    cursor: pointer;
 }
 
+/* ===== Responsive ===== */
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+    .section {
+        padding: 64px 96px 0;
+        gap: 60px;
+    }
+
+    .section h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .stn-imgcard {
+        gap: 24px;
+    }
+
+    .section-middle {
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .section-text {
+        flex: 1 1 100%;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .section-text h3 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .section-text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .section-text button {
+        width: 196px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .stn-article-img {
+        flex: 1 1 100%;
+        max-width: 400px;
+    }
+
+    .section-data {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .stn-hero {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .stn-hero-text {
+        flex: 1 1 100%;
+        text-align: center;
+        padding: 0 24px;
+        align-items: center;
+    }
+
+    .stn-hero-text h3 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .stn-hero-text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .stn-list-button {
+        width: 100%;
+        align-items: center;
+    }
+
+    .learn-btn {
+        width: 105px;
+        height: 38px;
+        font-size: 13px;
+    }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 48px 24px 0;
+        gap: 40px;
+    }
+
+    .section h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .stn-imgcard {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-middle {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .section-text {
+        flex: 1 1 100%;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+        padding-bottom: 0;
+    }
+
+    .section-text h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .section-text p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+
+    .section-text button {
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .stn-article-img {
+        flex: 1 1 100%;
+        max-width: 300px;
+    }
+
+    .section-data {
+        padding: 18px;
+        gap: 18px;
+    }
+
+    .stn-hero {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stn-hero-text {
+        flex: 1 1 100%;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .stn-hero-text h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .stn-hero-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .stn-list-button {
+        width: 100%;
+        align-items: center;
+    }
+
+    .learn-btn {
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .stn-header-img{
+        display: none;
+    }
+}
+
+/* Mobile 480px */
+@media screen and (max-width: 480px) {
+    .section {
+        padding: 32px 16px 0;
+        gap: 24px;
+    }
+
+    .section h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .stn-imgcard {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .section-middle {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-text {
+        flex: 1 1 100%;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+        padding-bottom: 0;
+    }
+
+    .section-text h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .section-text button {
+        width: 100%;
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .stn-article-img {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .section-data {
+        width: 100%;
+        padding: 16px;
+        gap: 16px;
+        border-radius: 8px;
+    }
+
+    .stn-hero {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .stn-hero-text {
+        flex: 1 1 100%;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .stn-hero-text h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .stn-hero-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .stn-list-button {
+        width: 100%;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .stn-list-button p {
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    .stn-list-button i {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+    }
+
+    .learn-btn {
+        width: 90px;
+        height: 34px;
+        font-size: 11px;
+    }
+}

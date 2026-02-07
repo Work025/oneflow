@@ -65,3 +65,113 @@
 .hero-button button:last-child:hover {
     background-color: #13364f;
 }
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding-left: 96px;
+    }
+
+    .hero-text h2 {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+
+    .hero-button button {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .hero-button button:first-child {
+        width: 160px;
+    }
+
+    .hero-button button:last-child {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding-left: 24px;
+        padding-right: 24px;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .hero-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+
+    .hero-button {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .hero-button button {
+        height: 40px;
+        font-size: 13px;
+        flex: 1;
+        min-width: 120px;
+    }
+
+    .hero-button button:first-child {
+        width: 100%;
+    }
+
+    .hero-button button:last-child {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .hero-text h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .hero-text p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .hero-button {
+        gap: 10px;
+    }
+
+    .hero-button button {
+        height: 36px;
+        font-size: 12px;
+    }
+}

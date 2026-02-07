@@ -14,3 +14,28 @@
   object-fit: cover;
   display: block;
 }
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 1024px) {
+  .img-section {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .img-section {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* kichik ekranlarda rasm kesilmasligi uchun */
+  }
+}
