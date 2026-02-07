@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/oneflow/static/css/main.0bcda8d5.css",
+    "main.js": "/oneflow/static/js/main.f7a24587.js",
+    "static/js/453.99c42004.chunk.js": "/oneflow/static/js/453.99c42004.chunk.js",
+    "static/media/IMG.svg": "/oneflow/static/media/IMG.72c4d58266bcdd81ae0be343fb98318c.svg",
+    "static/media/Frame.svg": "/oneflow/static/media/Frame.6011999606978dfc450d3e95726e3b59.svg",
+    "static/media/usercardimg4.svg": "/oneflow/static/media/usercardimg4.2af389da335c34f1ffb599c9da126393.svg",
+    "static/media/Rectangle.svg": "/oneflow/static/media/Rectangle.59bfabda8432887c8e8a.svg",
+    "static/media/usercardimg3.svg": "/oneflow/static/media/usercardimg3.a5fb6d62880d89ffea18e75b4215bd00.svg",
+    "static/media/usercardimg1.svg": "/oneflow/static/media/usercardimg1.f527dfe69a0ae3212a6ae7ea6dbad63c.svg",
+    "static/media/usercardimg2.svg": "/oneflow/static/media/usercardimg2.d93169f755e4a9d25b583d30116859e7.svg",
+    "static/media/AsideBG2.svg": "/oneflow/static/media/AsideBG2.e38520a2d95b630c5163.svg",
+    "static/media/Dstnlogos.svg": "/oneflow/static/media/Dstnlogos.554906f42aba09d8d29dc3cfc38c45b4.svg",
+    "static/media/boxlogos2.svg": "/oneflow/static/media/boxlogos2.b6776933419b8412bffadde3687be4ef.svg",
+    "static/media/stn-header-img.svg": "/oneflow/static/media/stn-header-img.127cf0bb341ee38edff7473be9ecb74b.svg",
+    "static/media/box4logo.svg": "/oneflow/static/media/box4logo.891c2729f4f452ff31cda2aca2964935.svg",
+    "static/media/Cardimg.svg": "/oneflow/static/media/Cardimg.69ed825bb42019f4d22f.svg",
+    "static/media/asideboximg1.svg": "/oneflow/static/media/asideboximg1.6a27699f490ab98b599520176187c547.svg",
+    "static/media/asideboximg2.svg": "/oneflow/static/media/asideboximg2.7b63ab6fc9c30b454c71ca0a179c5e69.svg",
+    "static/media/box1logo.svg": "/oneflow/static/media/box1logo.f57e846468769c184ac21493e450ecd4.svg",
+    "static/media/companie7.svg": "/oneflow/static/media/companie7.bbfac8395330175fcebe936fa1e259a6.svg",
+    "static/media/companie5.svg": "/oneflow/static/media/companie5.70a070239837b44dad789e6bd23b6608.svg",
+    "static/media/compaine2.svg": "/oneflow/static/media/compaine2.883da5c2daa65947effc8a173fa5e971.svg",
+    "static/media/Logo.svg": "/oneflow/static/media/Logo.782f1aa75ee81a278eb47ca36b5c7988.svg",
+    "static/media/LogoDARK.svg": "/oneflow/static/media/LogoDARK.782f1aa75ee81a278eb47ca36b5c7988.svg",
+    "static/media/companie1.svg": "/oneflow/static/media/companie1.2f5dab2ee3a367289441cf9352923416.svg",
+    "static/media/companie6.svg": "/oneflow/static/media/companie6.eb901c670123ab49cc9189a98abe572e.svg",
+    "static/media/companie3.svg": "/oneflow/static/media/companie3.416aa53d8973f6ac8d07b236c3f96002.svg",
+    "static/media/articleimg1.svg": "/oneflow/static/media/articleimg1.b0d0ce38d1c87de99d049c8a4490e14f.svg",
+    "static/media/companie4.svg": "/oneflow/static/media/companie4.71382209133a3ca984d7b1ac3d8ad835.svg",
+    "static/media/articleimg3.svg": "/oneflow/static/media/articleimg3.52c0fdab2d0f52337aab6676a1a3d565.svg",
+    "index.html": "/oneflow/index.html",
+    "static/media/articleimg2.svg": "/oneflow/static/media/articleimg2.361b6bcb17c71a147060f6c4cc140b4c.svg",
+    "main.0bcda8d5.css.map": "/oneflow/static/css/main.0bcda8d5.css.map",
+    "main.f7a24587.js.map": "/oneflow/static/js/main.f7a24587.js.map",
+    "453.99c42004.chunk.js.map": "/oneflow/static/js/453.99c42004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bcda8d5.css",
+    "static/js/main.f7a24587.js"
+  ]
+}
