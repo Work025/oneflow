@@ -48,12 +48,12 @@ function Section() {
             <div className="section-data">
                 <div className="stn-header">
                     <ul className="stn-header-ul">
-                        <li><a>Create</a></li>
-                        <li><a>Collaborate</a></li>
-                        <li><a>Sign</a></li>
-                        <li><a>Manage</a></li>
-                        <li><a>Analyze</a></li>
-                        <li><a>Integrate</a></li>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Collaborate</a></li>
+                        <li><a href="#">Sign</a></li>
+                        <li><a href="#">Manage</a></li>
+                        <li><a href="#">Analyze</a></li>
+                        <li><a href="#">Integrate</a></li>
                     </ul>
                 </div>
 

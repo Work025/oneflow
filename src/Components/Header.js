@@ -9,11 +9,11 @@ function Header() {
             </div>
 
             <ul className="header-ul">
-                <li><a>Why Oneflow?</a></li>
-                <li><a>Learn</a></li>
-                <li><a>Pricing</a></li>
-                <li><a>About</a></li>
-                <li><a>Blog</a></li>
+                <li><a href="#">Why Oneflow?</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
                 <button>Get a demo</button>
                 <button>Log in</button>
                 <i className="fas fa-earth"></i>
