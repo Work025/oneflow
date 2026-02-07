@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer-top">
 
                 <div className="footer-col footer-brand">
-                    <img src={logo} alt="Oneflow" className="footer-logo" />
+                    <img src={logo} alt="Oneflow logo" className="footer-logo" />
                     <p>
                         Headquarters:<br />
                         Hudiksvallsgatan 8<br />
@@ -20,39 +20,39 @@ function Footer() {
 
                 <div className="footer-col">
                     <h4>Why Oneflow</h4>
-                    <a>Product tour</a>
-                    <a>Smart contracts</a>
-                    <a>Built for scale</a>
-                    <a>Integrations</a>
-                    <a>Customer stories</a>
+                    <a href="#">Product tour</a>
+                    <a href="#">Smart contracts</a>
+                    <a href="#">Built for scale</a>
+                    <a href="#">Integrations</a>
+                    <a href="#">Customer stories</a>
                 </div>
 
                 <div className="footer-col">
                     <h4>Learn</h4>
-                    <a>FAQ</a>
-                    <a>Onboarding</a>
-                    <a>Developers</a>
-                    <a>Help Center</a>
-                    <a>E-sign guide</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Onboarding</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">E-sign guide</a>
                 </div>
 
                 <div className="footer-col">
                     <h4>Security</h4>
-                    <a>Security Center</a>
-                    <a>Reliability</a>
-                    <a>Compliance</a>
-                    <a>E-signing legality</a>
-                    <a>GDPR</a>
+                    <a href="#">Security Center</a>
+                    <a href="#">Reliability</a>
+                    <a href="#">Compliance</a>
+                    <a href="#">E-signing legality</a>
+                    <a href="#">GDPR</a>
                 </div>
 
                 <div className="footer-col">
                     <h4>More Oneflow</h4>
-                    <a>About us</a>
-                    <a>Pricing</a>
-                    <a>Partners</a>
-                    <a>Blog</a>
-                    <a>Careers</a>
-                    <a>Contact</a>
+                    <a href="#">About us</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
                 </div>
             </div>
 
@@ -73,13 +73,13 @@ function Footer() {
             </div>
 
             <div className="footer-divider"></div>
-            
+
             {/* BOTTOM */}
             <div className="footer-bottom">
                 <span>Login</span>
                 <span>Privacy</span>
                 <span>Cookie statement</span>
-                <i className="fas fa-earth"></i>
+                <i className="fas fa-earth" aria-hidden="true"></i>
             </div>
 
         </footer>
