@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/angular/static/css/main.8934d47d.css",
-    "main.js": "/angular/static/js/main.d0b54a3e.js",
+    "main.css": "/angular/static/css/main.782c0c40.css",
+    "main.js": "/angular/static/js/main.6a2fd222.js",
     "static/js/453.99c42004.chunk.js": "/angular/static/js/453.99c42004.chunk.js",
     "static/media/IMG.svg": "/angular/static/media/IMG.72c4d58266bcdd81ae0be343fb98318c.svg",
     "static/media/Frame.svg": "/angular/static/media/Frame.6011999606978dfc450d3e95726e3b59.svg",
@@ -32,12 +32,12 @@
     "static/media/articleimg3.svg": "/angular/static/media/articleimg3.52c0fdab2d0f52337aab6676a1a3d565.svg",
     "index.html": "/angular/index.html",
     "static/media/articleimg2.svg": "/angular/static/media/articleimg2.361b6bcb17c71a147060f6c4cc140b4c.svg",
-    "main.8934d47d.css.map": "/angular/static/css/main.8934d47d.css.map",
-    "main.d0b54a3e.js.map": "/angular/static/js/main.d0b54a3e.js.map",
+    "main.782c0c40.css.map": "/angular/static/css/main.782c0c40.css.map",
+    "main.6a2fd222.js.map": "/angular/static/js/main.6a2fd222.js.map",
     "453.99c42004.chunk.js.map": "/angular/static/js/453.99c42004.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8934d47d.css",
-    "static/js/main.d0b54a3e.js"
+    "static/css/main.782c0c40.css",
+    "static/js/main.6a2fd222.js"
   ]
 }
