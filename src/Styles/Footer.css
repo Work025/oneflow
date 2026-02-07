@@ -1,0 +1,137 @@
+.footer {
+    width: 100%;
+    background: #013A4C;
+    padding: 64px 144px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    color: #FFFFFF;
+}
+
+/* TOP */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-col h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-col a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #99B0B7;
+    cursor: pointer;
+}
+
+.footer-col a:hover {
+    opacity: 1;
+}
+
+.footer-brand {
+    display: flex;
+    gap: 67px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-brand p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 16px;
+}
+
+/* DIVIDER */
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* CTA */
+.footer-cta {
+    display: flex;
+    gap: 48px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-cta h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.footer-cta p {
+    width: 367px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-cta button {
+    width: 153px;
+    height: 40px;
+    background: #FFD063;
+    border: 1px solid #FFD063;
+    border-radius: 4px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #013A4C;
+}
+
+/* BOTTOM */
+.footer-bottom {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    opacity: 0.85;
+}
+
+.footer-bottom span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #99B0B7;
+}
+
+.footer-bottom i {
+    font-size: 16px;
+}

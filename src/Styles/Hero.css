@@ -1,0 +1,67 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assets/Rectangle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 144px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-content {
+    max-width: 520px;
+}
+
+.hero-text h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0f2a3d;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #3d5568;
+    margin-bottom: 35px;
+}
+
+.hero-button {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-button button {
+    height: 50px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+/* Sariq tugma */
+.hero-button button:first-child {
+    width: 176px;
+    background: #FFD063;
+    border: 1px solid #FFD063;
+}
+
+.hero-button button:first-child:hover {
+    background-color: #e5b437;
+}
+
+/* Qora tugma */
+.hero-button button:last-child {
+    width: 130px;
+    background-color: #0f2a3d;
+    color: #fff;
+}
+
+.hero-button button:last-child:hover {
+    background-color: #13364f;
+}
